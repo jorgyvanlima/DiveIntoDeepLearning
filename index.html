@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D2L Quest — Aprenda Deep Learning Jogando</title>
+  <meta name="description" content="Aplicação web gamificada para estudar o livro Dive into Deep Learning (d2l.ai): mundos, chefões, quizzes, charadas, revisão espaçada e modo foco.">
+  <meta name="theme-color" content="#0b0f1e">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="hud">
+    <a class="logo" href="#/" aria-label="D2L Quest — início">
+      <span class="logo-icon">🧠</span>
+      <span class="logo-text">D2L<span>QUEST</span></span>
+    </a>
+
+    <div class="hud-stats">
+      <div class="hud-player" title="Seu perfil">
+        <span id="hud-avatar" class="hud-avatar">🧙</span>
+        <div class="hud-level">
+          <div class="hud-line">
+            <strong id="hud-name">Aprendiz</strong>
+            <span class="lvl-badge">LV <span id="hud-lvl">1</span></span>
+          </div>
+          <div class="xpbar" aria-label="Barra de XP"><div id="hud-xpfill" class="xpfill"></div></div>
+          <small id="hud-xptext" class="muted">0 / 100 XP</small>
+        </div>
+      </div>
+      <div class="hud-chip" title="Sequência de dias estudando">🔥 <span id="hud-streak">0</span></div>
+      <div class="hud-chip" title="XP total">⭐ <span id="hud-xp">0</span></div>
+    </div>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#/" data-nav="map">🗺️ <span>Mapa</span></a>
+      <a href="#/revisao" data-nav="revisao">🔁 <span>Revisão</span></a>
+      <a href="#/foco" data-nav="foco">⏱️ <span>Foco</span></a>
+      <a href="#/glossario" data-nav="glossario">📖 <span>Glossário</span></a>
+      <a href="#/conquistas" data-nav="conquistas">🏆 <span>Conquistas</span></a>
+      <a href="#/roteiro" data-nav="roteiro">🧭 <span>Roteiro</span></a>
+      <a href="#/perfil" data-nav="perfil">⚙️ <span>Perfil</span></a>
+    </nav>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="fx" class="fx" aria-hidden="true"></div>
+
+  <footer class="footer">
+    <p>Feito para estudar o livro <a href="https://d2l.ai" target="_blank" rel="noopener">Dive into Deep Learning</a>
+      (Zhang, Lipton, Li &amp; Smola). Conteúdo de estudo original em português. ·
+      <a href="https://github.com/jorgyvanlima/DiveIntoDeepLearning" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
