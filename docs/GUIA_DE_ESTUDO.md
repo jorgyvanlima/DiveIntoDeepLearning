@@ -570,7 +570,7 @@ for epoch in range(5):
 
 ## 5. Perceptrons Multicamadas (MLP)
 
-🧠 **Chefão:** O Hidra das Camadas Ocultas · 📖 [Ler o capítulo no d2l.ai](https://d2l.ai/chapter_multilayer-perceptrons/index.html)
+🧠 **Chefão:** A Quimera das Camadas Ocultas · 📖 [Ler o capítulo no d2l.ai](https://d2l.ai/chapter_multilayer-perceptrons/index.html)
 
 ### Resumo
 
@@ -582,7 +582,8 @@ para frente no **grafo computacional**). Redes profundas sofrem com **gradientes
 uma boa **inicialização** (Xavier/Glorot) ajuda a manter a variância estável.
 
 Para generalizar melhor usamos **dropout**: durante o treino, zera neurônios aleatoriamente com probabilidade p e
-reescala os restantes por 1/(1−p). Na inferência, o dropout é desligado. O capítulo termina com um projeto real:
+reescala os restantes por 1/(1−p). Na inferência, o dropout é desligado. O capítulo também discute por que redes
+enormes, capazes de decorar os dados, ainda assim **generalizam** (early stopping, viés indutivo). O capítulo termina com um projeto real:
 **prever preços de casas no Kaggle**.
 
 > 💡 **Analogia:** Um MLP é uma linha de montagem: cada camada transforma um pouco a peça. A ativação não linear é o 'toque artesanal' de cada estação — sem ela, toda a fábrica faria o mesmo que uma única máquina.

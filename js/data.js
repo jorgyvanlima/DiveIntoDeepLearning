@@ -249,7 +249,7 @@ for epoch in range(5):
 {
   id: "mlp", num: 5, region: "fund", emoji: "🧠",
   title: "Perceptrons Multicamadas (MLP)",
-  boss: "O Hidra das Camadas Ocultas",
+  boss: "A Quimera das Camadas Ocultas",
   url: "https://d2l.ai/chapter_multilayer-perceptrons/index.html",
   resumo: `Modelos lineares são limitados. Adicionamos <b>camadas ocultas</b> com <b>funções de ativação não lineares</b>
   (ReLU, sigmoid, tanh). Sem não-linearidade, empilhar camadas lineares continua sendo linear!<br><br>
@@ -257,7 +257,8 @@ for epoch in range(5):
   para frente no <b>grafo computacional</b>). Redes profundas sofrem com <b>gradientes que desaparecem ou explodem</b>;
   uma boa <b>inicialização</b> (Xavier/Glorot) ajuda a manter a variância estável.<br><br>
   Para generalizar melhor usamos <b>dropout</b>: durante o treino, zera neurônios aleatoriamente com probabilidade p e
-  reescala os restantes por 1/(1−p). Na inferência, o dropout é desligado. O capítulo termina com um projeto real:
+  reescala os restantes por 1/(1−p). Na inferência, o dropout é desligado. O capítulo também discute por que redes
+  enormes, capazes de decorar os dados, ainda assim <b>generalizam</b> (early stopping, viés indutivo). O capítulo termina com um projeto real:
   <b>prever preços de casas no Kaggle</b>.`,
   analogia: "Um MLP é uma linha de montagem: cada camada transforma um pouco a peça. A ativação não linear é o 'toque artesanal' de cada estação — sem ela, toda a fábrica faria o mesmo que uma única máquina.",
   conceitos: [

@@ -85,7 +85,7 @@ Cavaleiro Transformer → … → **Lenda do Deep Learning**.
 | 2 | 🌱 Vale dos Fundamentos | [Preliminares](https://d2l.ai/chapter_preliminaries/index.html) | A Hidra Tensorial |
 | 3 | 🌱 Vale dos Fundamentos | [Redes Lineares para Regressão](https://d2l.ai/chapter_linear-regression/index.html) | O Golem dos Mínimos Quadrados |
 | 4 | 🌱 Vale dos Fundamentos | [Redes Lineares para Classificação](https://d2l.ai/chapter_linear-classification/index.html) | A Esfinge Softmax |
-| 5 | 🌱 Vale dos Fundamentos | [Perceptrons Multicamadas](https://d2l.ai/chapter_multilayer-perceptrons/index.html) | O Hidra das Camadas Ocultas |
+| 5 | 🌱 Vale dos Fundamentos | [Perceptrons Multicamadas](https://d2l.ai/chapter_multilayer-perceptrons/index.html) | A Quimera das Camadas Ocultas |
 | 6 | 🌱 Vale dos Fundamentos | [Guia do Construtor](https://d2l.ai/chapter_builders-guide/index.html) | O Mestre de Obras |
 | 7 | 🏔️ Montanhas da Visão | [CNNs](https://d2l.ai/chapter_convolutional-neural-networks/index.html) | O Kraken Convolucional |
 | 8 | 🏔️ Montanhas da Visão | [CNNs Modernas](https://d2l.ai/chapter_convolutional-modern/index.html) | O Titã Residual |
@@ -123,8 +123,8 @@ Não há build nem dependências. Basta servir a pasta:
 ```bash
 git clone https://github.com/jorgyvanlima/DiveIntoDeepLearning.git
 cd DiveIntoDeepLearning
-python3 -m http.server 8000
-# abra http://localhost:8000
+python3 -m http.server 8800
+# abra http://localhost:8800
 ```
 
 > Também funciona abrindo o `index.html` direto no navegador.
