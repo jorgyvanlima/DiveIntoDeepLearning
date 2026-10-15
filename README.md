@@ -123,8 +123,8 @@ Não há build nem dependências. Basta servir a pasta:
 ```bash
 git clone https://github.com/jorgyvanlima/DiveIntoDeepLearning.git
 cd DiveIntoDeepLearning
-python3 -m http.server 8800
-# abra http://localhost:8800
+./iniciar.sh            # sobe o servidor na porta 8800 e abre o navegador
+# ou: python3 -m http.server 8800  →  abra http://localhost:8800
 ```
 
 > Também funciona abrindo o `index.html` direto no navegador.
